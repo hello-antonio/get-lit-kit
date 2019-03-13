@@ -15,7 +15,7 @@ Front-end development toolkit. **Zero config bundler builder, assumes lit-HTML k
 
 ### Install
 *Assumes Node.js and npm is already install.*
-```
+```console
 npm install
 ```
 
@@ -32,6 +32,28 @@ npm run watch
 ### Build project
 ```
 npm run build
+```
+
+## Demo
+### Open demo site
+Python server
+```console
+$ cd demo
+
+$ python -m SimpleHTTPServer 
+
+```
+Open
+http://localhost:8000/
+
+node serve
+```console
+$ serve -s demo
+```
+
+Purge demo if you like, its just a demo build
+```
+$ rm -rf demo
 ```
 
 ## Issues

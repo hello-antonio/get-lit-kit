@@ -50,4 +50,3 @@ var t;!function(){function n(t,n,i){return t.call.apply(t.bind,arguments)}functi
 },{"webfontloader":"FryP"}],"Focm":[function(require,module,exports) {
 "use strict";var e=require("lit-html"),r=require("./App.js"),o=require("./router.js");require("./fonts.js");var t=document.getElementById("app");(0,e.render)((0,r.App)(),t),(0,o.router)(),module.hot&&(module.hot.dispose(function(){window.location.reload()}),module.hot.accept(function(){}));
 },{"lit-html":"SP/d","./App.js":"lY9v","./router.js":"hPM2","./fonts.js":"xV1a"}]},{},["Focm"], null)
-//# sourceMappingURL=/app.9f008ec1.map

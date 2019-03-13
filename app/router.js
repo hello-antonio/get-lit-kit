@@ -10,7 +10,6 @@ import {
     Home
 } from './components/Home.js';
 
-
 // Add routes 
 export const Router = {
     rootId: 'root',
