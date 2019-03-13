@@ -93,6 +93,7 @@ typings/
 # Optional npm cache directory
 .npm
 package-lock.json
+demo-config
 
 # Optional eslint cache
 .eslintcache
