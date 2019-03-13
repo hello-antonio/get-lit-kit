@@ -1,0 +1,31 @@
+{
+  "name": "parcel-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf build/*",
+    "start": "parcel serve -d 'build' app/index.html --open",
+    "build": "parcel build app/index.html -d 'build' --no-source-maps && serve -s 'build'",
+    "watch": "parcel watch -d 'build' app/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.9",
+    "page": "^1.11.4",
+    "parcel-bundler": "^1.11.0",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.17.2",
+    "webfontloader": "^1.6.28"
+  },
+  "dependencies": {
+    "lit-html": "^1.0.0"
+  }
+}
